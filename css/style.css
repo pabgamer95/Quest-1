@@ -1,0 +1,91 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    padding: 30px;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-areas: "logo_illustration informacoes"
+                         "logo_illustration social";
+}
+.logo_illustration{
+    grid-area: logo_illustration;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 200px;
+    padding-bottom: 80px;
+}
+.illustration{
+    width: 1000px;
+}
+.informacoes{
+    grid-area: informacoes;
+    padding-left: 40px;
+    height: fit-content;
+    position: relative;
+    bottom: -25%;
+}
+.informacoes h1{
+    color: white;
+    font-family: 'Poppins';
+    width: 80%;
+    font-size: 50px;
+}
+.informacoes p{
+    color: white;
+    font-family: 'Open Sans';
+    width: 83%;
+    font-size: 30px;
+}
+.informacoes button{
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0px;
+    box-shadow: 2px 3px 15px 4px rgba(0,0,0,0.58);
+}
+.informacoes button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+.social{
+    grid-area: social;
+    display: flex;
+    position: relative;
+    bottom: -150%;
+    left: -5%;
+    gap: 20px;
+    justify-content: flex-end;
+    height: 50px;
+}
+.social img{
+    width: 40px;
+    filter: grayscale(100%) contrast(1);
+    filter: brightness(0) invert(1);
+}
+.social img:hover {
+    filter: invert(80%) sepia(43%) saturate(1686%) hue-rotate(235deg) brightness(89%) contrast(104%);
+    cursor: pointer;
+  }
+
+.attribution{
+    color:white;
+    position: relative;
+    bottom: -120px;
+    width: fit-content;
+}
+.attribution a{
+    color: red;
+}
