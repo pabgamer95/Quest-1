@@ -98,9 +98,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Quest-1](https://pabgamer95.github.io/Quest-1/)
+- Frontend Mentor - [@pabgamer95](https://www.frontendmentor.io/profile/pabgamer95)
+- Github - [pabgamer95](https://github.com/pabgamer95)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
